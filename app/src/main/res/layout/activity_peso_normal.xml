@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_peso_normal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/normal"
+    tools:context="com.example.tyrrang.ejercicio_002.PesoNormal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pesoNormal"
+        android:textSize="28sp"
+        android:id="@+id/titulo"
+        android:textColor="#000"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAyuda"
+        android:text="@string/recomendacionnormal"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+
+    <ImageView
+        android:layout_width="266dp"
+        android:layout_height="234dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/pesonormal"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Regresar"
+        android:id="@+id/btnRegresar"
+        android:layout_weight="1"
+        android:background="@color/regresar"
+        android:textColor="@color/letras"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

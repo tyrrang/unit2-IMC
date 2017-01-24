@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3e5f8a</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bajoPeso">"#A1A1A1"</color>
+    <color name="regresar">"#000"</color>
+    <color name="letras">#fff</color>
+    <color name="menu">"#3f888f"</color>
+    <color name="normal">"#66CD00"</color>
+    <color name="sobre">"#8B1A1A"</color>
+</resources>

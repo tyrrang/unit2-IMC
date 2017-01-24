@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Datos de la Persona</string>
+    <string name="nombre">Nombre de la persona</string>
+    <string name="peso">Peso en KG</string>
+    <string name="estatura">Estatura en metros</string>
+    <string name="ejercicio">Realiza ejercicio diariamente</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="boton1">Calcular</string>
+    <string name="resultado">Datos de la persona: </string>
+    <string name="boton2">Limpiar Datos</string>
+    <string name="Regresar">Regresar</string>
+    <string name="recomendacion">Debes tener un buen plan de entrenamiento y nutrición para alcanzar tu peso ideal.</string>
+    <string name="recomendacionnormal">Estas en tu peso ideal, sigue con tu dieta y continua haciendo ejercicio periodicamente</string>
+    <string name="recomendacionsobre">Debes preocuparte por tu peso, acude con un nutriologo y realiza ejercicio diariamente</string>
+    <string name="bajoPeso">Bajo Peso</string>
+    <string name="pesoNormal">Peso Normal</string>
+    <string name="sobrePeso">Sobrepeso</string>
+</resources>

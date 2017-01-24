@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Data of the Person</string>
+    <string name="nombre">Name of individual</string>
+    <string name="peso">Weight in KG</string>
+    <string name="estatura">Height in meters</string>
+    <string name="ejercicio">Do daily exercise</string>
+    <string name="hombre">Man</string>
+    <string name="mujer">Woman</string>
+    <string name="boton1">Calculate</string>
+    <string name="resultado">Data of the person: </string>
+    <string name="boton2">Clean data</string>
+    <string name="Regresar">Back</string>
+    <string name="recomendacion">You must have a good plan of training and nutrition  to reach your ideal weight.</string>
+    <string name="recomendacionnormal">You are at your ideal weight, continue with your diet and continue to exercise periodically</string>
+    <string name="recomendacionsobre">You must worry about your weight, go to a nutritionist and exercise daily</string>
+    <string name="bajoPeso">Under weight</string>
+    <string name="pesoNormal">Normal weight</string>
+    <string name="sobrePeso">Overweight</string>
+</resources>

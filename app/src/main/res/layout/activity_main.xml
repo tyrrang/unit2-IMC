@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/menu"
+    tools:context="com.example.tyrrang.ejercicio_002.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/nombreP"
+        android:textSize="20sp"
+        android:text="@string/nombre"
+        android:textColor="@color/letras"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/txtNombre"
+        android:textColor="@color/letras"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pesoK"
+        android:textSize="20sp"
+        android:text="@string/peso"
+        android:textColor="@color/letras"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/txtPeso"
+        android:textColor="@color/letras"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/estatura"
+        android:textColor="@color/letras"
+        android:id="@+id/esta"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:id="@+id/txtEstatura"
+        android:textColor="@color/letras"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/ejercicio"
+        android:id="@+id/chEjercicio"
+        android:textColor="@color/letras"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hombre"
+            android:id="@+id/rdHombre"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/letras"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mujer"
+            android:id="@+id/rdMujer"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/letras"
+            android:textSize="20sp"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/letras"
+        android:text="@string/boton1"
+        android:id="@+id/btnCalcular"
+        android:layout_weight="1"
+        android:background="@color/regresar"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
+
